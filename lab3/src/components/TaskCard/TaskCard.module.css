@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cardLow {
+  border-left: 5px solid green;
+}
+
+.cardMedium {
+  border-left: 5px solid orange;
+}
+
+.cardHigh {
+  border-left: 5px solid red;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.meta {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
